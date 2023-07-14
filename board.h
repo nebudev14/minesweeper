@@ -1,4 +1,4 @@
-#include <stdint.h>
+/* Handles manipulation of board elements. */
 
 #ifndef BOARD_H
 #define BOARD_H

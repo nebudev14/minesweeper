@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdint.h>
 
 #include "board.h"
 
@@ -35,3 +34,4 @@ void changeCell(char *board, int x, int y, char value)
 {
   *(board + (x * HEIGHT) + y) = value;
 }
+
