@@ -1,2 +1,5 @@
 *.exe
 *.out
+.vscode
+main
+*.o

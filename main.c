@@ -1,12 +1,15 @@
 #include <stdio.h>
 #include <stdint.h>
 
-#include "display.h"
+#include "board.h"
 
-int main() {
+int main()
+{
   char board[HEIGHT][WIDTH];
   initBoard(*board);
-  printBoard(*board);
+  changeCell(*board, 2, 3, 'c');
+  // printBoard(*board);
+  // printf("%c\n", getCell(*board, 3, 3));
 
   return 0;
 }
