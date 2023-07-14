@@ -6,9 +6,9 @@
 #define WIDTH 5
 #define HEIGHT 5
 
-void initBoard(char* board);
+void initBoard(char* boardPointer);
 
-void printBoard(uint8_t* board);
+void printBoard(char* boardPointer);
 
 
 #endif
